@@ -208,3 +208,8 @@ img{
     top: 1rem;
     right: 1.5rem;
 }
+
+/* SHOW MENU */
+.show-menu{
+    top: 0;
+}
