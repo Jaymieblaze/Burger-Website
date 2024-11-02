@@ -164,7 +164,7 @@ img{
 @media screen and (max-width: 1150px){
     .nav__menu{
         position: fixed;
-        top: 0;
+        top: -100%;
         left: 0;
         background-color: var(--body-color);
         width: 100%;
@@ -172,4 +172,39 @@ img{
         box-shadow: 0 4px 16px hsla(22, 100%, 88%, .2);
         transition: top .4s;
     }
+}
+
+
+.nav__list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.nav__link{
+    position: relative;
+    color: var(--title-color);
+    font-family: var(--second-font);
+}
+
+.nav__link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: var(--first-color);
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    transition: width .3s;
+}
+
+.nav__link:hover::after{
+    width: 60%;
+}
+
+.nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
 }
