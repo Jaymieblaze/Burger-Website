@@ -51,3 +51,73 @@
     }
 }
 
+/* BASE */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
+  
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+  
+h1, h2, h3, h4{
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--font-regular);
+}
+  
+ul{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+}
+  
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* REUSABLE CSS CLASSES */
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+  
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+  
+.section{
+    padding-block: 5rem 1rem;
+}
+  
+.section__title{
+    text-align: center;
+    font-size: var(--h1-font-size);
+    margin-bottom: 2rem;
+}
+  
+.main {
+    overflow: hidden;
+}
+
+
+/* HEADER & RAW */
+
+
+
+/* NAVIGATION FOR MOBILE DEVICES */
+
