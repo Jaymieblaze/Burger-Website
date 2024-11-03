@@ -214,9 +214,14 @@ img{
     top: 0;
 }
 
-/* SHADOW HEADER */
+/* ADD SHADOW HEADER */
 .shadow-header{
     box-shadow: 0 4px 16px hsla(22, 100%, 8%, .1);
+}
+
+/* ACTIVE LINK */
+.active-link::after{
+    width: 60%;
 }
 
 
