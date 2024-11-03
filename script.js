@@ -37,3 +37,6 @@ const shadowHeader = () =>{
                         :header.classList.remove('shadow-header')
 }
 window.addEventListener('scroll', shadowHeader)
+
+
+// SHOW SCROLL UP
