@@ -504,9 +504,11 @@ img{
 .contact__container{
     position: relative;
     background-color: var(--second-color);
+    padding-inline: 1.5rem;
     padding-top: 3.5rem;
     border-radius: 3rem;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .contact__content{
@@ -922,6 +924,7 @@ img{
         max-width: initial;
     }
     .contact__container{
+        margin: 0 3rem;
         border-radius: 4rem;
         padding-block: 4rem 6.5rem;
     }
